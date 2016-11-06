@@ -1,0 +1,73 @@
+
+article {
+        max-width: 250px;
+        padding: 50px;
+        margin: 0 auto;
+}
+
+@media(min-width: 2000px) {
+	li {
+		display: inline !important;
+		padding: 0px 50px 0px 50px;
+	}
+}
+
+	li {
+		display: block;
+		padding: 10px 0 10px 0;
+	}
+/*	a {
+		padding: 2px 30% 2px 30%;
+	}*/
+/* } */
+
+.font {
+	font-family: 'Pacifico', cursive;
+}
+
+.grad1 {
+	height: 200px;
+	background: pink; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, cyan , #FD75CF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, cyan, #FD75CF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, cyan, #FD75CF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, cyan , #FD75CF); /* Standard syntax (must be last) */
+}
+
+header {
+	text-align: center;
+	size: 10px;
+	/*background-size: cover; --> makes the background image one image instead of multiple images to take up all the space*/
+	color: #FD75CF;
+}
+	    	
+h1 {
+	text-align: center;
+	font-style: 
+	
+	color: #FD75CF;
+}
+h2 {
+	color: #FD75CF;
+	/*font-size: 40px;*/
+}
+p {
+	color: black;
+}
+
+a {
+	color: #FD75CF;
+	text-decoration: none;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px
+}
+		    
+ul {
+	padding: 10px;
+}
+
+li {
+	list-style: none;
+	list-style-type: none;
+}
