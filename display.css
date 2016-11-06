@@ -25,7 +25,7 @@ article {
 	font-family: 'Pacifico', cursive;
 }
 
-.grad1 {
+#grad1 {
 	height: 200px;
 	background: pink; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(left, cyan , #FD75CF); /* For Safari 5.1 to 6.0 */
@@ -37,19 +37,16 @@ article {
 header {
 	text-align: center;
 	size: 10px;
-	/*background-size: cover; --> makes the background image one image instead of multiple images to take up all the space*/
 	color: #FD75CF;
 }
 	    	
 h1 {
 	text-align: center;
-	font-style: 
-	
+	font-style:
 	color: #FD75CF;
 }
 h2 {
 	color: #FD75CF;
-	/*font-size: 40px;*/
 }
 p {
 	color: black;
